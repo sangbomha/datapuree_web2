@@ -284,10 +284,31 @@ a{
 
 
 .solution-box{
-    height: 600px;
+    height: 550px;
     display: flex; 
     align-items: center;
 }
+
+.solution-box-1{
+    font-size: 1.2rem;
+    text-align: center;
+    height:10%;
+}
+
+.solution-box-2{
+    text-align: center;
+    height:20%;
+}
+
+.solution-box-3{
+    height:50%;
+}
+
+.solution-box-4{
+    height:20%;
+}
+
+
 
 /* 오른쪽 화살표와 라인 */
 .arrow-line-right {
@@ -492,7 +513,7 @@ a{
     }
     .sub-title {
         line-height: 3rem;
-        margin-top: 10vh;
+        margin-top: 50px;
     }
     .main-box{
         padding:40px;
@@ -534,13 +555,30 @@ a{
         margin-top: 4rem;
     }
     .circle-ppsition{
-        margin-top: 25vh;
+        margin-top: 150px;
     }
+
     .solution-box{
-        height: 2100px;
+        height: 550px;
         display: flex; 
         align-items: center;
     }
+    .solution-box-1{
+        font-size: 1.2rem;
+        text-align: center;
+        height:5%;
+    }
+    .solution-box-2{
+        text-align: center;
+        height:10%;
+    }
+    .solution-box-3{
+        height:40%;
+    }
+    .solution-box-4{
+        height:10%;
+    }
+
     .sub-title-tech {
         padding: 30px;
     }
