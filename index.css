@@ -539,6 +539,10 @@ a{
     border: 0.5px solid #5882FA;
 }
 
+.hlt{
+    background-color: yellow;
+    color: #4E45FF;
+}
   
 .horizontal_logo {
     width: 60%;
