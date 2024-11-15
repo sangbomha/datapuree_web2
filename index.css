@@ -431,11 +431,23 @@ a{
     font-size: 0.8rem;
     border: 1px solid #FF4000;
 }
+.orange-btn:hover {
+    background: linear-gradient(45deg, black, black);
+    border: 1px solid #000;
+    color: #fff;
+    font-weight: bold;
+}
 
 .blue-btn{
     background: linear-gradient(45deg, #4E45FF, #2E9AFE);
     font-size: 0.8rem;
     border: 1px solid #4E45FF;
+}
+.blue-btn:hover {
+    background: linear-gradient(45deg, black, black);
+    border: 1px solid #000;
+    color: #fff;
+    font-weight: bold;
 }
 
 
