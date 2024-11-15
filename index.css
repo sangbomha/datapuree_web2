@@ -156,12 +156,12 @@ a{
 }
 
 .nav-item a {
-    font-family: "Noto Sans KR", sans-serif;
     font-size: 0.8rem;
-    color: #848484;
+    color: #4E45FF !important;
 }
 
 .wrap{
+    font-family: "Pretendard-Regular";
     width: 70%;
     margin: 0 auto;
     color: #848484;
