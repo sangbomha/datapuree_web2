@@ -152,11 +152,11 @@ a{
 
 
 .top-margin-20{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .top-margin-10{
-    margin-top: 10vh;
+    margin-top: 80px;
 }
 
 .top-margin-5{
@@ -396,8 +396,8 @@ a{
 
   
 .horizontal_logo {
-width: 60%;
-height: auto;
+    width: 60%;
+    height: auto;
 }
   
 .veritical_logo {
