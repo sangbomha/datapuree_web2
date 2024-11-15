@@ -295,6 +295,9 @@ a{
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
+.big-title{
+    font-size: 7rem;
+}
 
 .process-box{
     border: 0.5px solid #CEE3F6;
@@ -589,7 +592,24 @@ a{
 .text-govern{
     margin-top: 2rem;
 }
-
+.mid-title{
+    margin-top: 20px;
+    font-size: 3rem;
+}
+.arrow-title-up{
+    width:100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-title-dn{
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -675,5 +695,11 @@ a{
 
     .sub-title-tech {
         padding: 30px;
+    }
+    .big-title{
+        font-size: 4.5rem;
+    }
+    .mid-title{
+        font-size: 2.5rem;
     }
 }
