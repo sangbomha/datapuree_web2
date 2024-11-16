@@ -292,6 +292,17 @@ a{
     justify-content: center;
     align-items: center;
 }
+.insight-fn-box{
+    border: 0.5px solid #4E45FF;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #4E45FF;
+}
+
 .top-box{
     background-color: transparent;
     border: 0.5px solid white;
