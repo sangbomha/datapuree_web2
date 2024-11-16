@@ -8,6 +8,13 @@
 }
 
 @font-face {
+    font-family: 'along-sans';
+    src: url('./font/AlongSanss2-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'S-CoreDream-3Light';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
     font-weight: normal;
@@ -23,6 +30,27 @@
 .black-han-sans-regular {
     font-family: "Black Han Sans", sans-serif;
     font-weight: 400;
+    font-style: normal;
+  }
+
+  .comfortaa-regular {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .quicksand{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .albert-sans {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
   }
 
@@ -283,9 +311,7 @@ a{
 
 .reason-box-govern{
     width: 100%;
-    background: linear-gradient(45deg, #4E45FF, #2E9AFE);
     color: #fff;
-    height: 700px;
     border-radius: 0.5rem;
     padding: 20px;
     display: flex;
@@ -471,6 +497,15 @@ a{
     height: 2px; /* 라인의 두께 */
     background-color: grey;
 }
+
+/* 오른쪽 화살표와 라인 */
+.arrow-line-right-w {
+    display: inline-block;
+    position: relative;
+    width: 100%; /* 라인의 길이 */
+    height: 2px; /* 라인의 두께 */
+    background-color: white;
+}
   
 .arrow-line-right::after {
     content: "";
@@ -482,6 +517,17 @@ a{
     border-bottom: 10px solid transparent;
     border-left: 15px solid #000;
 }
+
+.arrow-line-right-w::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px; /* 라인과 화살표 사이의 거리 */
+    transform: translateY(-50%);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+}
   
   /* 왼쪽 화살표와 라인 */
   .arrow-line-left {
@@ -490,6 +536,15 @@ a{
     width: 100%; /* 라인의 길이 */
     height: 2px; /* 라인의 두께 */
     background-color: #000;
+  }
+
+/* 왼쪽 화살표와 라인 */
+.arrow-line-left-w {
+    display: inline-block;
+    position: relative;
+    width: 100%; /* 라인의 길이 */
+    height: 2px; /* 라인의 두께 */
+    background-color: #fff;
   }
   
   .arrow-line-left::after {
@@ -502,6 +557,17 @@ a{
     border-bottom: 10px solid transparent;
     border-right: 15px solid #000;
   }
+
+  .arrow-line-left-w::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0px; /* 라인과 화살표 사이의 거리 */
+    transform: translateY(-50%);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid #fff;
+  }
   
   /* 위쪽 화살표와 라인 */
   .arrow-line-up {
@@ -510,6 +576,15 @@ a{
     width: 2px; /* 라인의 두께 */
     height: 100%; /* 라인의 길이 */
     background-color: #000;
+  }
+
+/* 위쪽 화살표와 라인 */
+.arrow-line-up-w {
+    display: inline-block;
+    position: relative;
+    width: 2px; /* 라인의 두께 */
+    height: 100%; /* 라인의 길이 */
+    background-color: #fff;
   }
   
 .arrow-line-up::after {
@@ -522,6 +597,17 @@ a{
     border-right: 10px solid transparent;
     border-bottom: 15px solid #000;
 }
+
+.arrow-line-up-w::after {
+    content: "";
+    position: absolute;
+    top: 0px; /* 라인과 화살표 사이의 거리 */
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+}
   
 /* 아래쪽 화살표와 라인 */
 .arrow-line-down {
@@ -530,6 +616,15 @@ a{
     width: 2px; /* 라인의 두께 */
     height: 100%; /* 라인의 길이 */
     background-color: #000;
+}
+
+/* 아래쪽 화살표와 라인 */
+.arrow-line-down-w {
+    display: inline-block;
+    position: relative;
+    width: 2px; /* 라인의 두께 */
+    height: 100%; /* 라인의 길이 */
+    background-color: #fff;
 }
   
 .arrow-line-down::after {
@@ -542,7 +637,17 @@ a{
     border-right: 10px solid transparent;
     border-top: 15px solid #000;
 }
-  
+
+.arrow-line-down-w::after {
+    content: "";
+    position: absolute;
+    bottom: 0px; /* 라인과 화살표 사이의 거리 */
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #fff;
+}
 
 
 .grid-item{
