@@ -422,8 +422,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #81BEF7, CEE3F6); /* 배경 그래디언트 */
-    color: #08088A;          /* 텍스트 색상 */
+    background: linear-gradient(45deg, #4E45FF, #4E45FF); /* 배경 그래디언트 */
+    color: #fff;          /* 텍스트 색상 */
     box-sizing: border-box; /* 테두리를 width와 height에 포함 */
 }
 
@@ -495,7 +495,7 @@ a{
     position: relative;
     width: 100%; /* 라인의 길이 */
     height: 2px; /* 라인의 두께 */
-    background-color: grey;
+    background-color: #4E45FF;
 }
 
 /* 오른쪽 화살표와 라인 */
@@ -515,7 +515,7 @@ a{
     transform: translateY(-50%);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 15px solid #000;
+    border-left: 15px solid #4E45FF;
 }
 
 .arrow-line-right-w::after {
@@ -535,7 +535,7 @@ a{
     position: relative;
     width: 100%; /* 라인의 길이 */
     height: 2px; /* 라인의 두께 */
-    background-color: #000;
+    background-color: #4E45FF;
   }
 
 /* 왼쪽 화살표와 라인 */
@@ -555,7 +555,7 @@ a{
     transform: translateY(-50%);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 15px solid #000;
+    border-right: 15px solid #4E45FF;
   }
 
   .arrow-line-left-w::after {
@@ -575,7 +575,7 @@ a{
     position: relative;
     width: 2px; /* 라인의 두께 */
     height: 100%; /* 라인의 길이 */
-    background-color: #000;
+    background-color: #4E45FF;
   }
 
 /* 위쪽 화살표와 라인 */
@@ -595,7 +595,7 @@ a{
     transform: translateX(-50%);
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 15px solid #000;
+    border-bottom: 15px solid #4E45FF;
 }
 
 .arrow-line-up-w::after {
@@ -615,7 +615,7 @@ a{
     position: relative;
     width: 2px; /* 라인의 두께 */
     height: 100%; /* 라인의 길이 */
-    background-color: #000;
+    background-color: #4E45FF;
 }
 
 /* 아래쪽 화살표와 라인 */
@@ -635,7 +635,7 @@ a{
     transform: translateX(-50%);
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 15px solid #000;
+    border-top: 15px solid #4E45FF;
 }
 
 .arrow-line-down-w::after {
