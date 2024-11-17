@@ -413,6 +413,16 @@ a{
     align-items: center;
 }
 
+.case-box{
+    background-color: #4E45FF;
+    border-radius: 10px;color: white;
+    width: 100%;font-size: 1.2rem;
+    height:50px;display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 
 .circle {
     width: 100px;           /* 원의 가로 크기 */
