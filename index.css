@@ -412,8 +412,8 @@ a{
 }
 
 .case-box{
-    background-color: #4E45FF;
-    border-radius: 10px;color: white;
+    background-color: #aadafa;
+    border-radius: 10px;color: #4E45FF;
     width: 100%;font-size: 1.2rem;
     height:50px;display: flex;
     justify-content: center;
@@ -813,6 +813,9 @@ a{
 .insight-fn2{
     font-size: 0.7rem;display: flex;align-items: center;justify-content: center;
 }
+.case-table{
+    padding: 10px;border: 0.5px solid #4E45FF;height: 50px;
+}
 
 /*중간화면*/
 @media (min-width: 768px) {
@@ -821,6 +824,9 @@ a{
     }
     .index-main1{
         padding: 20px;
+    }
+    .case-box{
+        font-size: 1rem;
     }
 }
 
