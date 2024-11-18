@@ -88,7 +88,7 @@
   
 
 body{
-    background-image: linear-gradient(90deg, #fff, #fff);
+    background-color: #fff;
     font-family: "Pretendard-Regular";
     overflow-x: hidden;
     overflow-y: auto;
@@ -190,9 +190,7 @@ a{
 
 .wrap{
     font-family: "Pretendard-Regular";
-    width: 70%;
     margin: 0 auto;
-    color: #848484;
 }
 
 .highlight {
@@ -804,15 +802,25 @@ a{
     width: 70%; 
 }
 
+.index-main1{
+    background: linear-gradient(45deg, #4E45FF, #2E9AFE);
+    height:980px;
+    padding: 60px;
+}
+.insight-fn1{
+    display: flex;align-items: center;justify-content: center;font-size: 1rem;
+}
+.insight-fn2{
+    font-size: 0.7rem;display: flex;align-items: center;justify-content: center;
+}
 
+/*중간화면*/
 @media (min-width: 768px) {
-    .mid-title {
-        font-size: 2rem; /* 웹에서 더 큰 폰트 크기 */
-        white-space: nowrap; /* 한 줄로 강제 */
+    .wrap{
+        width: 70%;
     }
-
-    .mobile-line-break {
-        display: none; /* 줄바꿈 제거 */
+    .index-main1{
+        padding: 20px;
     }
 }
 
@@ -824,6 +832,7 @@ a{
 }
 
 
+/*모바일*/
 @media (max-width: 768px) {
     .wrap{
         width: 90%;
