@@ -478,9 +478,9 @@ a{
     border: 1px solid #FF4000;
 }
 .orange-btn {
-    background: linear-gradient(45deg, black, black);
+    background: linear-gradient(45deg, yellow, yellow);
     border: 1px solid #000;
-    color: #fff;
+    color: #4E45FF;
     font-weight: bold;
 }
 
@@ -825,6 +825,9 @@ a{
 .team-main-title{
     font-size: 9rem;color: #fff;
 }
+.gov-main-title{
+    font-size: 6.4rem;color: #fff;
+}
 
 
 
@@ -845,13 +848,10 @@ a{
     .team-main-title{
         font-size: 6.6rem;color: #fff;
     }
-    .gov-main-title{
-        font-size: 6.4rem;color: #fff;
-    }
 }
 
 /* 큰 화면 (1200px 이상)에서는 더 큰 폰트 */
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
     .mid-title {
         font-size: 2.5rem; /* 더 큰 화면에서는 더욱 큰 폰트 */
     }
