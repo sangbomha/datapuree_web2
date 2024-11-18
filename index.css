@@ -233,7 +233,7 @@ a{
 
 .main-box{
     /*background-color: #f2f2f2;*/
-    background: linear-gradient(45deg, #4E45FF, #2E9AFE);
+    background: linear-gradient(45deg, #aadafa, #2E9AFE);
     color: white;
     border: 0.5px solid #5882FA;
     border-radius: 0.5rem;
@@ -260,7 +260,7 @@ a{
 
 .top-title{
     width: 100%;
-    background-color: white;
+    background-color: #aadafa;
     border-top-left-radius: 10px; /* 왼쪽 위 모서리 */
     border-top-right-radius: 10px; /* 오른쪽 위 모서리 */
     border-bottom-left-radius: 0; /* 아래쪽은 둥글지 않게 */
@@ -317,6 +317,7 @@ a{
     align-items: center;
 }
 .insight-fn-box{
+    background-color: #aadafa;
     border: 0.5px solid #4E45FF;
     border-radius: 10px;
     height: 80px;
@@ -329,19 +330,19 @@ a{
 
 .top-box{
     background-color: transparent;
-    border: 0.5px solid white;
+    border: 0.5px solid #aadafa;
     border-radius: 10px;
     height: 200px;
-    color: #fff;
+    color: #aadafa;
     font-size: 1.5rem;
     text-align: center;
 }
 .top-box-2{
     background-color: transparent;
-    border: 0.5px solid white;
+    border: 0.5px solid #aadafa;
     border-radius: 10px;
     height: 500px;
-    color: #fff;
+    color: #aadafa;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -471,12 +472,12 @@ a{
     height:20%;
 }
 
-.orange-btn{
+.orange-btn:hover{
     background: linear-gradient(45deg, #FF4000, orange);
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     border: 1px solid #FF4000;
 }
-.orange-btn:hover {
+.orange-btn {
     background: linear-gradient(45deg, black, black);
     border: 1px solid #000;
     color: #fff;
@@ -817,6 +818,16 @@ a{
     padding: 10px;border: 0.5px solid #4E45FF;height: 50px;
 }
 
+.capa-main-title{
+    font-size: 8rem;color: #fff;
+}
+
+.team-main-title{
+    font-size: 9rem;color: #fff;
+}
+
+
+
 /*중간화면*/
 @media (min-width: 768px) {
     .wrap{
@@ -828,12 +839,24 @@ a{
     .case-box{
         font-size: 1rem;
     }
+    .capa-main-title{
+        font-size: 5.8rem;color: #fff;
+    }
+    .team-main-title{
+        font-size: 6.6rem;color: #fff;
+    }
+    .gov-main-title{
+        font-size: 6.4rem;color: #fff;
+    }
 }
 
 /* 큰 화면 (1200px 이상)에서는 더 큰 폰트 */
 @media (min-width: 1200px) {
     .mid-title {
         font-size: 2.5rem; /* 더 큰 화면에서는 더욱 큰 폰트 */
+    }
+    .gov-main-title{
+        font-size: 8.5rem;color: #fff;
     }
 }
 
