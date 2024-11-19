@@ -1,13 +1,6 @@
 
 
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('./font/PretendardVariable.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'along-sans';
     src: url('./font/AlongSanss2-Bold.otf') format('opentype');
     font-weight: normal;
@@ -85,11 +78,23 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-  
+
+.Pretendard-Regular{
+    font-family: 'Pretendard'; font-weight: 400;
+}
+
+.Pretendard-Bold{
+    font-family: 'Pretendard'; font-weight: 700;
+}
+
+.black-text{
+    color: #000;
+}
+
 
 body{
     background-color: #fff;
-    font-family: "Pretendard-Regular";
+    font-family: 'Pretendard'; font-weight: 400;
     overflow-x: hidden;
     overflow-y: auto;
     overscroll-behavior: none;
@@ -109,14 +114,12 @@ a{
 }
 
 .sub-title{
-    font-size: 2rem;
+    font-size: 30px;
 }
 
-.sub-title2{
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 0 0 0 0;
-    line-height: 3.2rem;
+.title {
+    line-height: 3rem;
+    font-size: 40px;
 }
 
 .sub-title3{
@@ -136,10 +139,14 @@ a{
     font-size: 1.5rem;
     margin-top: 1.5rem;
 }
+.custom-row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
-.sub-title6{
-    font-size: 1.2rem;
-    margin-top: 1.5rem;
+.description{
+    font-size: 18px;
+    margin-top: 30px;
 }
 
 .sub-title-btn-space{
@@ -156,10 +163,6 @@ a{
     font-size: 1.2rem;
 }
 
-.sub-title-textbox{
-    height: 400%;
-    background-color: transparent;
-}
 .circle-ppsition{
     height: 500px;
     margin-top: 20px;
@@ -234,12 +237,10 @@ a{
 .main-box{
     background-color: #f2f2f2;
     color: black;
-    border-radius: 0.5rem;
+    border-radius: 10px;
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
-    height: 100px;
-    padding: 10px 0px 10px 0%;
+    height: 120px;
     justify-content: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -645,7 +646,7 @@ a{
 
 
 .grid-item{
-    height: 160px;
+    height: 120px;
     margin-bottom: 10px;
 }
   
@@ -861,6 +862,12 @@ a{
     .sub-title {
         line-height: 3rem;
         margin-top: 50px;
+        font-size: 20px;
+    }
+    .title {
+        line-height: 3rem;
+        margin-top: 100px;
+        font-size: 20px;
     }
     .main-box{
         padding:40px;
