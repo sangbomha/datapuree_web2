@@ -204,23 +204,58 @@ a{
     margin: 0 auto;
 }
 
-.highlight {
-    background-color: yellow;
-    font-weight: bold;
-  }
-
-.insight-box-title{
-    color: white;display: flex;justify-content: center;margin-top: 30px;
+.insight-box-blue{
+    background: linear-gradient(45deg, #4E45FF, #0431B4);
 }
 
-.insight-box-description{
-    height:150px;
-    background-color: #f2f2f2;
+.insight-box-deepblue{
+    background: linear-gradient(45deg, #0431B4, #0A0A2A);
+}
+
+.insight-box-grey{
+    background: linear-gradient(45deg, #f2f2f2, #d4d4d4);
+}
+
+.insight-box-title-dark{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.5px solid white;
-    padding: 30px;
+    font-size: 30px;
+    font-family: 'Pretendard'; 
+    font-weight: 700;
+    padding: 20px;
+    border-bottom: 0.5px solid #fff;
+}
+
+.insight-box-title-light{
+    color: 000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Pretendard'; 
+    font-weight: 700;
+    padding: 20px;
+    border-bottom: 0.5px solid #000;
+}
+
+.insight-box-description-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.insight-box-description-light{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-size: 18px;
+    color: #000;
 }
 
 .top-line{
@@ -279,39 +314,7 @@ a{
     color: #4E45FF;
 }
 
-
-.main-box-partners{
-    background-color: #f2f2f2;
-    background: linear-gradient(45deg, #4E45FF, #2E9AFE);
-    height: 380px;
-    border-radius: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    padding: 40px;
-    border: 0.5px solid #5882FA;
-}
-
-.reason-box{
-    width: 100%;
-    background: linear-gradient(45deg, #4E45FF, #2E9AFE);
-    color: #fff;
-    height: 400px;
-    border-radius: 0.5rem;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0.5px solid #5882FA;
-}
-
-.reason-box-box{
-    padding: 20px;
-    background-color: #ffff;
-    color: #585858;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+x rgba(0, 0, 0, 0.2);
 }
 
 .reason-box-govern{
@@ -323,17 +326,52 @@ a{
     justify-content: center;
     align-items: center;
 }
-.insight-fn-box{
-    width: 100%;
-    background-color: #4E45FF;
-    border: 0.5px solid #4E45FF;
-    border-radius: 10px;
-    height: 80px;
+.insight-fn-box-blue{
+    background: linear-gradient(45deg, #4E45FF, #0431B4);
+    color: #fff;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 20px;
-    color: white;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding-top: 15px;
+    height: 100px;
+}
+
+.insight-fn-box-deepblue{
+    background: linear-gradient(45deg, #0431B4, #0A0A2A);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding-top: 15px;
+    height: 100px;
+}
+
+.insight-fn-box-darkblue{
+    background: linear-gradient(45deg, #0A0A2A, #000);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding-top: 15px;
+    height: 100px;
+}
+
+.insight-fn-box-grey{
+    background: linear-gradient(45deg, #f2f2f2, #d4d4d4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding-top: 15px;
+    height: 100px;
 }
 
 .top-box{
@@ -506,8 +544,9 @@ a{
     height:20%;
 }
 
+
 .orange-btn:hover{
-    background-color: transparent;
+    background-color: #fff;
     border: 1px solid #000;
     color: #000;
 }
@@ -861,6 +900,21 @@ a{
     font-size: 6.4rem;color: #fff;
 }
 
+.solution-box-blue{
+    height:100px;
+    background: linear-gradient(45deg, #4E45FF, #0431B4);
+}
+
+.solution-box-deepblue{
+    height:100px;
+    background: linear-gradient(45deg, #0431B4, #0A0A2A);
+}
+
+.solution-box-grey{
+    height:100px;
+    background: linear-gradient(45deg, #f2f2f2, #d4d4d4);
+}
+
 
 
 /*중간화면*/
@@ -956,11 +1010,6 @@ a{
         margin-top: 150px;
     }
 
-    .solution-box{
-        height: 550px;
-        display: flex; 
-        align-items: center;
-    }
     .solution-box-1{
         font-size: 1.2rem;
         text-align: center;
