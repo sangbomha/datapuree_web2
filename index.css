@@ -154,6 +154,14 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f2f2f2;
+    height: 150px;
+}
+.custom-box-description{
+    height: 200px;display: flex;justify-content: center;align-items: center;padding: 100px;
+}
+.custom-btn{
+    height: 150px; display: flex;justify-content: center;align-items: center;
 }
 
 .sub-title-btn{
@@ -200,6 +208,20 @@ a{
     background-color: yellow;
     font-weight: bold;
   }
+
+.insight-box-title{
+    color: white;display: flex;justify-content: center;margin-top: 30px;
+}
+
+.insight-box-description{
+    height:150px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid white;
+    padding: 30px;
+}
 
 .top-line{
     border-top: 0.5px solid #000;
@@ -303,7 +325,7 @@ a{
 }
 .insight-fn-box{
     width: 100%;
-    background-color: #aadafa;
+    background-color: #4E45FF;
     border: 0.5px solid #4E45FF;
     border-radius: 10px;
     height: 80px;
@@ -311,7 +333,7 @@ a{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    color: #4E45FF;
+    color: white;
 }
 
 .top-box{
