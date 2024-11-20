@@ -983,7 +983,13 @@ a{
     height: 70vh; /* 뷰포트 높이 */
     overflow: hidden;
 }
-
+.main-title-sub-text{
+    font-size: 20px;
+    margin-top: 80px;
+}
+.main-logo-image{
+    width: 100%;margin-top: 80px;filter: invert(100%)
+}
 
 
 
@@ -1021,6 +1027,12 @@ a{
 @media (max-width: 768px) {
     .wrap{
         width: 90%;
+    }
+    .main-title-sub-text{
+        margin-top: 30px;
+    }
+    .main-logo-image{
+        margin-top: 10px;
     }
     .mobile-line-break {
         display: flex; /* 데스크탑에서는 줄바꿈 태그 숨기기 */
@@ -1060,6 +1072,11 @@ a{
     .big-title{
         font-size: 4.5rem;
         color: white;
+    }
+    .container{
+        max-width: 100%; /* 제한 해제 */
+        margin: 0; /* 여백 제거 */
+        padding: 0; /* 패딩 제거 */    
     }
    
 }
