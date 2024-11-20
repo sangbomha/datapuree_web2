@@ -511,6 +511,9 @@ a{
     justify-content: center;
     align-items: center;
 }
+.team-table{
+    height: 70px;
+}
 
 .case-box{
     background-color: #aadafa;
