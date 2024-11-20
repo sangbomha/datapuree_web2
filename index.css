@@ -903,8 +903,9 @@ p, span {
     .solution-btn{
         margin-top: 50px;
     }
-    
-
+    .big-title{
+        font-size: 40px;
+    }
     .image-container1{
         height: 150px; /* 이미지를 보여줄 높이 */
     }
@@ -918,10 +919,6 @@ p, span {
         height: 400px; /* 이미지를 보여줄 높이 */
     }
 
-    .big-title{
-        font-size: 4.5rem;
-        color: white;
-    }
     .container{
         max-width: 100%; /* 제한 해제 */
         margin: 0; /* 여백 제거 */
