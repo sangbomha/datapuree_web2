@@ -108,32 +108,15 @@ a{
     font-size: 5rem;
 }
 
-.sub-title{
-    font-size: 30px;
-}
-
 .title {
     line-height: 3rem;
     font-size: 40px;
 }
 
-.sub-title3{
-    font-size: 2rem;
-    text-align: center;
+.sub-title{
+    font-size: 30px;
 }
-.sub-title4{
-    font-size: 1.5rem;
-    padding: 50px;
-}
-.sub-title-tech {
-    font-size: 1.2rem;
-    padding: 20px;
-    line-height: 2.5rem;
-}
-.sub-title5{
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-}
+
 .custom-row {
     margin-right: -15px;
     margin-left: -15px;
@@ -142,6 +125,8 @@ a{
 .description{
     font-size: 18px;
     margin-top: 30px;
+    padding:12px;
+
 }
 
 .sub-title-btn-space{
@@ -164,11 +149,6 @@ a{
     height: 50px;
     background-color: #000;
     font-size: 1.2rem;
-}
-
-.circle-ppsition{
-    height: 500px;
-    margin-top: 20px;
 }
 
 
@@ -295,11 +275,10 @@ a{
     background-color: #f2f2f2;
     color: black;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
     height: 120px;
-    justify-content: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 40px;
 }
 
 .fn-box{
@@ -544,34 +523,31 @@ a{
 }
 
 
-.circle {
-    width: 100px;           /* 원의 가로 크기 */
-    height: 100px;          /* 원의 세로 크기 */
-    border: 0.5px solid #5882FA;
-    border-radius: 50%;     /* 둥글게 처리해서 원으로 만듦 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(45deg, #4E45FF, #4E45FF); /* 배경 그래디언트 */
-    color: #fff;          /* 텍스트 색상 */
-    box-sizing: border-box; /* 테두리를 width와 height에 포함 */
+.solution-box-blue{
+    margin-bottom: 0px;
+    background: linear-gradient(45deg, #4E45FF, #0431B4);
+    height: 170px !important;
+    margin-left: 12px;
+}
+.solution-box-deepblue{
+    margin-bottom: 0px;
+    background: linear-gradient(45deg, #0431B4, #0A0A2A);
+    height: 170px !important;
+    margin-left: 12px;
+}
+.solution-box-darkblue{
+    margin-bottom: 0px;
+    background: linear-gradient(45deg, #0A0A2A, #000);
+    height: 170px !important;
+    margin-left: 12px;
+}
+.solution-box-grey{
+    margin-bottom: 0px;
+    background: linear-gradient(45deg, #f2f2f2, #d4d4d4);
+    height: 170px !important;
+    margin-left: 12px;
 }
 
-
-.solution-box{
-    height: 450px;
-    display: flex; 
-    align-items: center;
-}
-.solution-box-real{
-    width: 100%;
-    height:100%;
-    background: linear-gradient(45deg, #4E45FF, #2E9AFE);
-    border-radius: 15px;
-    color: white;
-    border: 0.5px solid #5882FA;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
 
 .solution-box-1{
     font-size: 1.2rem;
@@ -615,169 +591,6 @@ a{
     color: #fff;
     font-weight: bold;
 }
-
-
-
-/* 오른쪽 화살표와 라인 */
-.arrow-line-right {
-    display: inline-block;
-    position: relative;
-    width: 100%; /* 라인의 길이 */
-    height: 2px; /* 라인의 두께 */
-    background-color: #4E45FF;
-}
-
-/* 오른쪽 화살표와 라인 */
-.arrow-line-right-w {
-    display: inline-block;
-    position: relative;
-    width: 100%; /* 라인의 길이 */
-    height: 2px; /* 라인의 두께 */
-    background-color: white;
-}
-  
-.arrow-line-right::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 0px; /* 라인과 화살표 사이의 거리 */
-    transform: translateY(-50%);
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #4E45FF;
-}
-
-.arrow-line-right-w::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 0px; /* 라인과 화살표 사이의 거리 */
-    transform: translateY(-50%);
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #fff;
-}
-  
-  /* 왼쪽 화살표와 라인 */
-  .arrow-line-left {
-    display: inline-block;
-    position: relative;
-    width: 100%; /* 라인의 길이 */
-    height: 2px; /* 라인의 두께 */
-    background-color: #4E45FF;
-  }
-
-/* 왼쪽 화살표와 라인 */
-.arrow-line-left-w {
-    display: inline-block;
-    position: relative;
-    width: 100%; /* 라인의 길이 */
-    height: 2px; /* 라인의 두께 */
-    background-color: #fff;
-  }
-  
-  .arrow-line-left::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0px; /* 라인과 화살표 사이의 거리 */
-    transform: translateY(-50%);
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 15px solid #4E45FF;
-  }
-
-  .arrow-line-left-w::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0px; /* 라인과 화살표 사이의 거리 */
-    transform: translateY(-50%);
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 15px solid #fff;
-  }
-  
-  /* 위쪽 화살표와 라인 */
-  .arrow-line-up {
-    display: inline-block;
-    position: relative;
-    width: 2px; /* 라인의 두께 */
-    height: 100%; /* 라인의 길이 */
-    background-color: #4E45FF;
-  }
-
-/* 위쪽 화살표와 라인 */
-.arrow-line-up-w {
-    display: inline-block;
-    position: relative;
-    width: 2px; /* 라인의 두께 */
-    height: 100%; /* 라인의 길이 */
-    background-color: #fff;
-  }
-  
-.arrow-line-up::after {
-    content: "";
-    position: absolute;
-    top: 0px; /* 라인과 화살표 사이의 거리 */
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid #4E45FF;
-}
-
-.arrow-line-up-w::after {
-    content: "";
-    position: absolute;
-    top: 0px; /* 라인과 화살표 사이의 거리 */
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid #fff;
-}
-  
-/* 아래쪽 화살표와 라인 */
-.arrow-line-down {
-    display: inline-block;
-    position: relative;
-    width: 2px; /* 라인의 두께 */
-    height: 100%; /* 라인의 길이 */
-    background-color: #4E45FF;
-}
-
-/* 아래쪽 화살표와 라인 */
-.arrow-line-down-w {
-    display: inline-block;
-    position: relative;
-    width: 2px; /* 라인의 두께 */
-    height: 100%; /* 라인의 길이 */
-    background-color: #fff;
-}
-  
-.arrow-line-down::after {
-    content: "";
-    position: absolute;
-    bottom: 0px; /* 라인과 화살표 사이의 거리 */
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 15px solid #4E45FF;
-}
-
-.arrow-line-down-w::after {
-    content: "";
-    position: absolute;
-    bottom: 0px; /* 라인과 화살표 사이의 거리 */
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 15px solid #fff;
-}
-
 
 .grid-item{
     height: 120px;
@@ -877,11 +690,6 @@ a{
     height: auto;
     object-fit: cover; /* 이미지 비율을 유지하면서 잘 맞춤 */
     object-position: center -250px; /* Y 축으로 -50px만큼 이동 */
-}
-
-.main-box-partners2{
-    height: 350px;
-    padding: 10px;
 }
 .text-govern{
     margin-top: 2rem;
@@ -1001,6 +809,12 @@ p, span {
     display: none; /* 기본적으로 보이지 않음 */
 }
 
+.solution-btn{
+    display: flex;
+    justify-content: 
+    left;margin-top: 20px;
+}
+
 
 
 /*중간화면*/
@@ -1050,6 +864,7 @@ p, span {
     }
     .title{
         font-size: 20px;
+        margin-left: 10px;
     }
     .description{
         padding:10px;
@@ -1064,24 +879,31 @@ p, span {
     .mobile-line-break {
         display: inline; /* 모바일에서만 줄바꿈 표시 */
     }
-
-
-
-
-
-
-
+    .main-box{
+        padding:20px;
+    }
   
     .sub-title {
-        line-height: 3rem;
-        margin-top: 50px;
         font-size: 20px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .solution-box-blue{
+        height:260px !important;
+    }
+    .solution-box-deepblue{
+        height:260px !important;
+    }
+    .solution-box-darkblue{
+        height:260px !important;
+    }
+    .solution-box-grey{
+        height:260px !important;
+    }
+    .solution-btn{
+        margin-top: 50px;
     }
     
-    .main-box{
-        padding:40px;
-        height:150px;
-    }
 
     .image-container1{
         height: 150px; /* 이미지를 보여줄 높이 */
