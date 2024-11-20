@@ -1031,7 +1031,7 @@ p, span {
 /*모바일*/
 @media (max-width: 768px) {
     .index-main1{
-        padding: 10px;
+        padding: 20px;
     }
     .wrap{
         width: 100%;
@@ -1053,6 +1053,13 @@ p, span {
     .mobile-line-break {
         display: inline; /* 모바일에서만 줄바꿈 표시 */
     }
+
+
+
+
+
+
+
   
     .sub-title {
         line-height: 3rem;
