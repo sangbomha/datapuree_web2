@@ -199,6 +199,11 @@ a{
     margin: 0 auto;
 }
 
+.nav-wrap{
+    font-family: "Pretendard-Regular";
+    margin: 0 auto;
+}
+
 .insight-box-blue{
     background: linear-gradient(45deg, #4E45FF, #0431B4);
 }
@@ -1031,10 +1036,13 @@ p, span {
 /*모바일*/
 @media (max-width: 768px) {
     .index-main1{
-        padding: 30px;
+        padding: 20px;
     }
     .wrap{
         width: 100%;
+    }
+    .nav-wrap{
+        width: 90%;
     }
     .custom-row{
         margin-right: 0px;
