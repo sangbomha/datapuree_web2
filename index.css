@@ -103,11 +103,6 @@ body{
 a{
     text-decoration: none;
 }  
-  
-
-.mobile-line-break {
-    display: none;
-}
 
 .main-title{
     font-size: 5rem;
@@ -990,6 +985,16 @@ a{
 .main-logo-image{
     width: 100%;margin-top: 80px;filter: invert(100%)
 }
+.main-text{
+    margin-top: 50px;
+}
+
+p, span {
+    line-height: 1.5; /* 기본 줄 간격 설정 */
+}
+.mobile-line-break {
+    display: none; /* 기본적으로 보이지 않음 */
+}
 
 
 
@@ -1028,14 +1033,17 @@ a{
     .wrap{
         width: 90%;
     }
+    .main-text{
+        line-height: 10px;
+    }
     .main-title-sub-text{
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .main-logo-image{
         margin-top: 10px;
     }
     .mobile-line-break {
-        display: flex; /* 데스크탑에서는 줄바꿈 태그 숨기기 */
+        display: inline; /* 모바일에서만 줄바꿈 표시 */
     }
     .main-title {
         font-size: 4rem; /* 모바일 화면에서 폰트 크기 */
