@@ -965,7 +965,9 @@ a{
     height:100px;
     background: linear-gradient(45deg, #f2f2f2, #d4d4d4);
 }
-
+.main-image{
+    width: 100%;
+}
 
 
 /*중간화면*/
