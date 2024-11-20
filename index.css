@@ -1031,7 +1031,7 @@ p, span {
 /*모바일*/
 @media (max-width: 768px) {
     .index-main1{
-        padding: 20px;
+        padding: 30px;
     }
     .wrap{
         width: 100%;
