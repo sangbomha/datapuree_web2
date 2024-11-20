@@ -1046,5 +1046,8 @@ p, span {
         padding-left: 60px;
         padding-right: 60px;
     }
+    .footer-bw{
+        padding: 20px;
+    }
    
 }
